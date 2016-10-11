@@ -5,9 +5,42 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  background-color:#f2f1ed;
+  background-color: #fdf6e3;
 }
 
 h1 {
   text-transform:uppercase;
-  }
+}
+
+header {
+  font-size:2rem;
+}
+
+h2 {
+  color:#92a1a1;
+}
+
+main {
+  background-color: #eee8d5;
+}
+
+#favs
+ul>li {color: green;
+}
+
+
+.dfn {
+  background-color:#b38a2e;
+}
+
+ol li:last-child {
+ color:#34a49c;
+}
+
+ol li:first-child {
+ color: green;
+}
+
+footer {
+  font-size:1.5rem;
+}
