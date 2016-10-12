@@ -4,53 +4,52 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
-html {
+body {
   background-color: #fdf6e3;
   font-family: sans-serif;
   font-size:1.5rem;
 }
 
+header, footer {
+  font-size: 1.5rem;
+}
+
+nav ul {
+  font-family: sans-serif;
+}
+
 h1 {
   text-transform: uppercase;
-  font-size:3rem
 }
 
-header {
-  font-size:2rem;
-
-}
-
- mark {
-  background-color:#719e07;
-}
-
-h2 {
-  color:#92a1a1;
-}
-
-main {
+.wrapper {
   background-color: #eee8d5;
 }
 
-#favs
-ul>li {color: green;
+#contents,#favs, #facts, #types {
+  color: #93a1a1;
+}
+.dfn .wrapper {
+  background-color: #b58900;
+}
+
+.dfn +strong second-child {
+  color: #fff;
 }
 
 
-.dfn {
-  background-color:#b38a2e;
+html > body> header>nav >ul>li>mark {
+  background-color: #719e07;
 }
 
-ol li:first-child {
- color: green;
+rel="external" {
+  background-color: #2694d8;
 }
 
-ol li:last-child {
- color:#34a49c;
+ol>li first-child {
+  color: #719e47;
 }
 
-
-
-footer {
-  font-size:1.5rem;
+ol li third-child {
+  background-color: #2aa198;
 }
