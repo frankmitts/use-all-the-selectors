@@ -7,7 +7,7 @@
 body {
   background-color: #fdf6e3;
   font-family: sans-serif;
-  font-size:1.5rem;
+  font-size:1rem;
 }
 
 header, footer {
@@ -20,9 +20,10 @@ nav ul {
 
 h1 {
   text-transform: uppercase;
+  font-family: sans-serif;
 }
 
-.wrapper {
+.wrapper > {
   background-color: #eee8d5;
 }
 
@@ -30,12 +31,16 @@ h1 {
   color: #93a1a1;
 }
 
-.dfn .wrapper {
+.wrapper > .dfn {
   background-color: #b58900;
 }
 
-.dfn + strong second-child {
+.dfn +strong second-child {
   color: #fff;
+}
+
+h2 {
+  color: #93a1a1;
 }
 
 html > body > header > nav > ul > li > mark {
@@ -54,6 +59,10 @@ ol li:last-child {
   color: #2aa198;
 }
 
+strong:nth-child(even) {
+  color: #fff;
+}
+
 .types li:nth-child(even) {
   background-color: #586e75;
 }
@@ -62,6 +71,9 @@ ol li:last-child {
   background-color: #657ba3;
 }
 
-.types li:nth-of-type(3) {
+.types li:nth-child(3n) {
   background-color: #d04b16;
+}
+li mark {
+  background-color: #719e07;
 }
