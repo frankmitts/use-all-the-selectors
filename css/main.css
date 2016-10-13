@@ -29,6 +29,7 @@ h1 {
 #contents,#favs, #facts, #types {
   color: #93a1a1;
 }
+
 .dfn .wrapper {
   background-color: #b58900;
 }
@@ -37,19 +38,30 @@ h1 {
   color: #fff;
 }
 
-
 html > body> header>nav >ul>li>mark {
   background-color: #719e07;
 }
 
-rel="external" {
+a[rel="external"] {
   background-color: #2694d8;
 }
 
-ol>li first-child {
+ol li:first-child {
   color: #719e47;
 }
 
-ol li third-child {
-  background-color: #2aa198;
+ol li:last-child {
+  color: #2aa198;
+}
+
+.types li:nth-child(even) {
+  background-color: #586e75;
+}
+
+.types li:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+.types li:nth-of-type(3) {
+  background-color: #d04b16;
 }
